@@ -1,0 +1,14 @@
+baseURL = 'https://hyounggyu.com/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = ["github.com/setsevireon/photophobia"]
+
+DefaultContentLanguage = 'en'
+SectionPagesMenu = 'main'
+Paginate = 3
+
+[languages]
+  [en]
+    title = 'Latim Jibber Jabber'
+    weight = 1
+    contentDir = 'content/en'
