@@ -1,7 +1,7 @@
 baseURL = 'https://hyounggyu.com/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
-theme = ["github.com/setsevireon/photophobia"]
+theme = ["PaperMod"]
 
 DefaultContentLanguage = 'en'
 SectionPagesMenu = 'main'
