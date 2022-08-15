@@ -70,7 +70,7 @@ ShowToc = true
 
   [params.homeInfoParams]
   Title = "My Dev Notes"
-  Content = """몇 가지"""
+  Content = """Hi"""
 
   [[params.socialIcons]]
   name = "GitHub"
