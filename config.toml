@@ -5,6 +5,7 @@ theme = ["PaperMod"]
 DefaultContentLanguage = 'ko'
 Paginate = 5
 # SectionPagesMenu = 'main'
+staticDir = ['static']
 
 enableInlineShortcodes = true
 enableRobotsTXT = true
