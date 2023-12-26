@@ -10,13 +10,14 @@ staticDir = ['static']
 enableInlineShortcodes = true
 enableRobotsTXT = true
 buildDrafts = false
+# buildDrafts = true
 buildFuture = false
 buildExpired = false
 enableEmoji = true
 pygmentsUseClasses = true
 
 [permalinks]
-  posts = '/:year/:month/:day/:slug/'
+posts = '/:year/:month/:day/:slug/'
 
 [minify]
 disableXML = true
@@ -27,66 +28,77 @@ disableXML = true
 title = 'My Dev Notes'
 weight = 1
 contentDir = 'content/ko'
-languageName = ":kr:"
-languageAltTitle = "Korean"
+disabled = false
+languageCode = 'ko-KR'
+languageDirection = 'ltr'
+languageName = 'Korean'
 
-  [languages.ko.taxonomies]
-  category = "categories"
-  tag = "tags"
-  series = "series"
+[languages.ko.taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
 
-  [[languages.ko.menu.main]]
-  name = "Archive"
-  url = "archives/"
-  weight = 10
+[[languages.ko.menu.main]]
+name = "Archive"
+url = "archives/"
+weight = 10
 
-  [[languages.ko.menu.main]]
-  name = "Search"
-  url = "search/"
-  weight = 20
+[[languages.ko.menu.main]]
+name = "Search"
+url = "search/"
+weight = 20
 
-  [[languages.ko.menu.main]]
-  name = "Tags"
-  url = "tags/"
-  weight = 30
+[[languages.ko.menu.main]]
+name = "Tags"
+url = "tags/"
+weight = 30
 
 [outputs]
-home = [ "HTML", "RSS", "JSON" ]
+home = ["HTML", "RSS", "JSON"]
 
 [params]
 env = "production"
 description = ""
-author = "Kim Hyounggyu"
+author = "KIM, HYOUNGGYU"
 defaultTheme = "auto"
-ShowShareButtons = false
 ShowReadingTime = false
-displayFullLangName = true
+ShowShareButtons = true
 ShowPostNavLinks = true
 ShowBreadCrumbs = true
-ShowCodeCopyButtons = true
+ShowCodeCopyButtons = false
+ShowWordCount = false
 ShowRssButtonInSectionTermList = true
-ShowToc = true
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = true
+hideSummary = false
+showtoc = false
+tocopen = false
+displayFullLangName = true
+DateFormat = "2023-12-26"
 # images = [ "papermod-cover.png" ]
 
-  [params.homeInfoParams]
-  Title = "My Dev Notes"
-  Content = """Hi"""
+[params.homeInfoParams]
+Title = "My Dev Notes"
+Content = """Hi"""
 
-  [[params.socialIcons]]
-  name = "GitHub"
-  url = "https://github.com/hyounggyu"
+[[params.socialIcons]]
+name = "GitHub"
+url = "https://github.com/hyounggyu"
 
-  [[params.socialIcons]]
-  name = "RSS"
-  url = "index.xml"
+[[params.socialIcons]]
+name = "RSS"
+url = "index.xml"
 
-  [params.editPost]
-  URL = "https://github.com/hyounggyu/hyounggyu.github.io/tree/src/content"
-  Text = "Suggest Changes"
-  appendFilePath = true
+[params.editPost]
+URL = "https://github.com/hyounggyu/hyounggyu.github.io/tree/src/content"
+Text = "Suggest Changes"
+appendFilePath = true
 
-  [params.assets]
-  disableHLJS = true
+[params.assets]
+disableHLJS = true
 
 [markup.goldmark.renderer]
 unsafe = true
