@@ -23,11 +23,6 @@ jobs:
       - name: Update theme to Latest commit using Git submodule
         run: git submodule update --remote --merge      
 
-      - name: Setup Go
-        uses: actions/setup-go@v3
-        with:
-          go-version: '^1.18.0'
-
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
@@ -36,7 +31,7 @@ jobs:
 
       - name: Build
         run: |
-          hugo gen chromastyles --style dracula --highlightStyle 'bg:#474733' > assets/css/extended/dracula.css && hugo --gc --verbose --minify
+          hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

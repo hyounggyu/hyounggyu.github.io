@@ -77,7 +77,7 @@ hideSummary = false
 showtoc = true
 tocopen = false
 displayFullLangName = true
-DateFormat = "2023-12-26"
+DateFormat = "2006-01-02"
 # images = [ "papermod-cover.png" ]
 
 [params.homeInfoParams]
@@ -105,20 +105,11 @@ disableHLJS = false
 [markup.goldmark.renderer]
 unsafe = true
 
-[markup.highlight]
-anchorLineNos = true
-codeFences = true
-guessSyntax = false
-hl_Lines = ''
-hl_inline = false
-lineAnchors = ''
-lineNoStart = 1
-lineNos = false
-lineNumbersInTable = true
-noClasses = false
-noHl = false
-style = 'dracula'
-tabWidth = 4
+# [markup.highlight]
+# codeFences = true
+# guessSyntax = true
+# lineNos = true
+# style = "monokai"
 
 [privacy.vimeo]
 disabled = false
