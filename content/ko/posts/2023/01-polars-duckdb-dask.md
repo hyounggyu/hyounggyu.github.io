@@ -1,7 +1,7 @@
 ---
 title: "Polars, Dask, DuckDB를 이용하여 여러 Parquet 파일 쿼리하기"
 date: 2023-12-26T10:37:52+07:00
-draft: true
+draft: false
 # Optional variables
 # Ref: https://github.com/adityatelange/hugo-PaperMod/wiki/Installation#sample-pagemd
 #
