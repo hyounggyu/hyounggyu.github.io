@@ -58,23 +58,23 @@ home = ["HTML", "RSS", "JSON"]
 
 [params]
 env = "production"
-description = ""
+description = "My Personal Dev Notes"
 author = "KIM, HYOUNGGYU"
 defaultTheme = "auto"
 ShowReadingTime = false
 ShowShareButtons = true
 ShowPostNavLinks = true
 ShowBreadCrumbs = true
-ShowCodeCopyButtons = false
+ShowCodeCopyButtons = true
 ShowWordCount = false
 ShowRssButtonInSectionTermList = true
 UseHugoToc = true
 disableSpecial1stPost = false
 disableScrollToTop = false
 comments = false
-hidemeta = true
+hidemeta = false
 hideSummary = false
-showtoc = false
+showtoc = true
 tocopen = false
 displayFullLangName = true
 DateFormat = "2023-12-26"
@@ -98,13 +98,27 @@ Text = "Suggest Changes"
 appendFilePath = true
 
 [params.assets]
-disableHLJS = true
+disableHLJS = false
+
+[markup]
 
 [markup.goldmark.renderer]
 unsafe = true
 
 [markup.highlight]
+anchorLineNos = true
+codeFences = true
+guessSyntax = false
+hl_Lines = ''
+hl_inline = false
+lineAnchors = ''
+lineNoStart = 1
+lineNos = false
+lineNumbersInTable = true
 noClasses = false
+noHl = false
+style = 'dracula'
+tabWidth = 4
 
 [privacy.vimeo]
 disabled = false
