@@ -47,7 +47,7 @@ Dask는 스케일 확장에 최적화된 Python 라이브러리이다. High Perf
 
 DuckDB는 C++로 구현된 embeddable SQL OLAP database이다. 손쉽게 설치할 수 있으며 Python에서 사용할 수 있다.
 
-예제에서 사용하는 데이터와 소스코드는 https://github.com/hyounggyu/polars_dask_duckdb 에서 확인할 수 있으며 Jupyter notebook은 [여기](https://github.com/hyounggyu/polars_dask_duckdb/blob/main/gettingstarted.ipynb)이다.
+예제에서 사용하는 데이터와 소스코드는 https://github.com/hyounggyu/hello_data 에서 확인할 수 있으며 Jupyter notebook은 [여기](https://github.com/hyounggyu/hello_data/blob/main/polars_dask_duckdb/notebook.ipynb)이다.
 
 데이터는 S&P 500 기업 중 25개 기업을 임의로 뽑아 2023년 1월 2일부터 2023년 12월 22일까지의 종가를 2023년 1월 2일 기준으로 상대적인 수치로 변환하였다. 아래 예,
 
