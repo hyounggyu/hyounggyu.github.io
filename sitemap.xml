@@ -2,11 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://hyounggyu.com/</loc>
+    <lastmod>2023-12-26T10:37:52+07:00</lastmod>
+  </url><url>
+    <loc>https://hyounggyu.com/2023/12/26/polars-dask-duckdb%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%EC%97%AC%EB%9F%AC-parquet-%ED%8C%8C%EC%9D%BC-%EC%BF%BC%EB%A6%AC%ED%95%98%EA%B8%B0/</loc>
+    <lastmod>2023-12-26T10:37:52+07:00</lastmod>
+  </url><url>
+    <loc>https://hyounggyu.com/posts/</loc>
+    <lastmod>2023-12-26T10:37:52+07:00</lastmod>
+  </url><url>
     <loc>https://hyounggyu.com/archives/</loc>
   </url><url>
     <loc>https://hyounggyu.com/categories/</loc>
-  </url><url>
-    <loc>https://hyounggyu.com/</loc>
   </url><url>
     <loc>https://hyounggyu.com/search/</loc>
   </url><url>

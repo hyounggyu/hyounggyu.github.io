@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My Dev Notes</title>
-    <link>https://hyounggyu.com/</link>
-    <description>Recent content on My Dev Notes</description>
+    <title>Posts on My Dev Notes</title>
+    <link>https://hyounggyu.com/posts/</link>
+    <description>Recent content in Posts on My Dev Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-KR</language>
     <lastBuildDate>Tue, 26 Dec 2023 10:37:52 +0700</lastBuildDate>
-    <atom:link href="https://hyounggyu.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://hyounggyu.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Polars, Dask, DuckDB를 이용하여 여러 Parquet 파일 쿼리하기</title>
       <link>https://hyounggyu.com/2023/12/26/polars-dask-duckdb%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%EC%97%AC%EB%9F%AC-parquet-%ED%8C%8C%EC%9D%BC-%EC%BF%BC%EB%A6%AC%ED%95%98%EA%B8%B0/</link>
