@@ -3,7 +3,7 @@ title = 'My Dev Notes'
 theme = ["PaperMod"]
 
 DefaultContentLanguage = 'ko'
-Paginate = 5
+pagination.pagerSize = 5
 # SectionPagesMenu = 'main'
 staticDir = ['static']
 
@@ -14,7 +14,6 @@ buildDrafts = false
 buildFuture = false
 buildExpired = false
 enableEmoji = true
-pygmentsUseClasses = true
 
 [permalinks]
 posts = '/:year/:month/:day/:slug/'
@@ -98,24 +97,25 @@ Text = "Suggest Changes"
 appendFilePath = true
 
 [params.assets]
-disableHLJS = false
+disableHLJS = true
 
 [markup]
 
 [markup.goldmark.renderer]
 unsafe = true
 
-# [markup.highlight]
-# codeFences = true
-# guessSyntax = true
-# lineNos = true
-# style = "monokai"
+[markup.highlight]
+codeFences = true
+guessSyntax = true
+lineNos = true
+noClasses = false
+style = "github"
 
 [privacy.vimeo]
 disabled = false
 simple = true
 
-[privacy.twitter]
+[privacy.x]
 disabled = false
 enableDNT = true
 simple = true
@@ -131,5 +131,5 @@ privacyEnhanced = true
 [services.instagram]
 disableInlineCSS = true
 
-[services.twitter]
+[services.x]
 disableInlineCSS = true
