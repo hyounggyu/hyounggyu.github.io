@@ -1,22 +1,40 @@
 # hyounggyu.github.io
 
-## Issues
+Personal blog built with Hugo and PaperMod theme.
 
-### Syntax Highlighting Using Chroma
+## Local Development
 
-Ref: https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-faq/
+```bash
+# Install Hugo (Extended version required)
+brew install hugo
 
-다음과 같이 `config.toml` 파일을 수정하라고 하는데, 적용이 안된다.
+# Start development server
+hugo server -D
 
-```toml
-[params.assets]
-disableHLJS = true
-
-[markup.highlight]
-codeFences = true
-guessSyntax = true
-lineNos = true
-style = "monokai"
+# Build site for production
+hugo --minify
 ```
 
-결국 포기하고 그냥 기본 설정 사용
+## Features
+
+- Fast and responsive theme (PaperMod)
+- Syntax highlighting with Chroma
+- Multilingual support (Korean)
+- Search functionality
+- Dark/light mode
+
+## Configuration
+
+The site is configured through `config.toml`. See [PaperMod documentation](https://github.com/adityatelange/hugo-PaperMod/wiki) for theme options.
+
+## Content Management
+
+Create new posts with:
+
+```bash
+hugo new content/ko/posts/yyyy/title.md
+```
+
+## Deployment
+
+The site is automatically deployed via GitHub Actions when changes are pushed to the `src` branch.
