@@ -1,4 +1,4 @@
-# CLAUDE.md - Site Development Guide
+# AGENTS.md - Site Development Guide
 
 ## Build Commands
 - `hugo server -D` - Start local development server with drafts enabled
@@ -8,7 +8,7 @@
 
 ## Deployment
 - Automatic deployment via GitHub Actions on push to `src` branch
-- Hugo (extended version) compiles site which is deployed to `main` branch
+- Hugo (extended version) compiles the site and deploys it via GitHub Pages artifact
 
 ## Style Guidelines
 - **Content**: Korean language content in `/content/ko/`
