@@ -28,9 +28,9 @@ title = 'My Dev Notes'
 weight = 1
 contentDir = 'content/ko'
 disabled = false
-languageCode = 'ko-KR'
-languageDirection = 'ltr'
-languageName = 'Korean'
+locale = 'ko-KR'
+direction = 'ltr'
+label = 'Korean'
 
 [languages.ko.taxonomies]
 category = "categories"
